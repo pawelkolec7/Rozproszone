@@ -4,7 +4,7 @@
 
 // Struktura reprezentująca pakiet przesyłany między procesami MPI
 typedef struct {
-    int ts;         // Zegar Lamporta - kiedy wiadomość została wysłana
+     int ts;         // Zegar Lamporta - kiedy wiadomość została wysłana
     int src;        // Numer rank nadawcy wiadomości
     int data;       // Pole danych - używane np. do dodatkowych informacji
 } packet_t;
